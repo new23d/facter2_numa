@@ -1,0 +1,12 @@
+{
+  "name": "new23d-facter2_numa",
+  "version": "0.0.1",
+  "author": "new23d",
+  "summary": "NUMA CPU and Memory layout structured facts for facter 2.x",
+  "license": "Apache 2.0",
+  "source": "https://github.com/new23d/facter2_numa.git",
+  "project_page": "https://github.com/new23d/facter2_numa",
+  "issues_url": "https://github.com/new23d/facter2_numa/issues",
+  "dependencies": []
+}
+
