@@ -1,12 +1,30 @@
 {
-  "name": "new23d-facter2_numa",
-  "version": "0.0.1",
-  "author": "new23d",
-  "summary": "NUMA CPU and Memory layout structured facts for facter 2.x",
-  "license": "Apache 2.0",
-  "source": "https://github.com/new23d/facter2_numa.git",
-  "project_page": "https://github.com/new23d/facter2_numa",
-  "issues_url": "https://github.com/new23d/facter2_numa/issues",
-  "dependencies": []
+   "name": "new23d-facter2_numa",
+   "version": "0.0.2",
+   "author": "new23d",
+   "summary": "NUMA CPU and Memory layout structured facts for facter 2.x",
+   "license": "Apache-2.0",
+   "source": "https://github.com/new23d/facter2_numa.git",
+   "project_page": "https://github.com/new23d/facter2_numa",
+   "issues_url": "https://github.com/new23d/facter2_numa/issues",
+   "operatingsystem_support": [
+      {
+         "operatingsystem": "RedHat",
+         "operatingsystemrelease": ["6.0", "7.0"]
+      },
+      {
+         "operatingsystem": "Ubuntu",
+         "operatingsystemrelease": [
+            "14.04"
+         ]
+      },
+      {
+         "operatingsystem": "Debian",
+         "operatingsystemrelease": [
+            "8"
+         ]
+      }
+   ],
+   "dependencies": [],
+   "tags": ["numa", "facter"]
 }
-
